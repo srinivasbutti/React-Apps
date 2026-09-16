@@ -1,16 +1,19 @@
 import React from 'react';
 import Home from './Home';
-import About from './About';
+import Placements from './Placements';
 
-const App=()=>{
-  return(
+class App extends React.Component {
+  render() {
+    return (
+    <div> <h1>App Class Component!</h1>
     <div>
-      <h2>Welcome To My Website</h2>
-          <div>
-            <Home/>
-            <About/>
-          </div>
+      <Home/>
+      <Placements/>
     </div>
-  )
+    </div>
+    )
+  }
+
 }
+
 export default App;

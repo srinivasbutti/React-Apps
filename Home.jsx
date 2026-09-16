@@ -1,11 +1,10 @@
 import React from 'react';
 
-const Home=()=>{
+class Home extends React.Component{
+    render(){
     return(
-           <div style={{ textAlign: "left", marginTop: "150px", }}>
-            <h2 style={{color:'red'}}>Home Component</h2>
-       </div>
+        <h2>This is from Home Class Component </h2>
     )
 }
-
+}
 export default Home;
